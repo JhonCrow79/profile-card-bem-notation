@@ -1,0 +1,112 @@
+.container__card {
+    border: 10px solid purple;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 400px;
+    max-width: 400px;
+    height: 460px;
+     
+}
+
+.card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .3em;
+    
+}
+
+.card__image--center {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid purple;
+    padding: 3px;
+}
+
+.card__info {
+  display: block;
+  margin-top: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: purple;
+  
+}
+
+.container__stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+       
+  }
+
+  .container__star {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    position: relative;
+
+    
+  } 
+  .container__star::before {
+    content: "\2605";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    color: purple;
+  }
+
+  .container__star--2::before{
+    color: white;
+  }
+  
+  .container__star--2::after{
+    content: "\2606";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    color: purple;
+  }
+
+  .container__description {
+    display: block;
+    margin-top: 2em;
+    font-size: 1em;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+  }  
+    
+.container__btn {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.container__btns {
+    padding: .7em 4em;
+    border: 1px solid purple;
+    border-radius: 5px;
+    color: purple;
+    background-color: white;
+    margin-top: .3em;
+    margin-right: .5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.container__btns--purple {
+    background: none;
+    color: white;
+    background-color: purple;
+    
+}
